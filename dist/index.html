@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="./index.bundle.js" defer></script>
+    <script src="./catchError.bundle.js"></script>
+    <script src="./fibonacciRecursive.bundle.js"></script>
+    <script src="./fibonacci.bundle.js"></script>
+    <script src="./mergeSort.bundle.js"></script>
+
+</head>
+<body class="flex flex-700">
+    <section class="container-equations flex">
+        <ul class="equation-list flex">
+            <li>
+                <section class="equation">
+                    <button class="btn" data-btn>Fibbonacci Array</button>
+                    <p>sum each number with the one before it</p>
+                </section>
+            </li>
+            <li>
+                <section class="equation">
+                    <button class="btn" data-btn>Recursive Fibbonacci</button>
+                    <p>Returns last number in array</p>
+          
+                </section>
+                
+            </li>
+            <li>
+                <section class="equation">
+                    <button class="btn" data-btn>Recursive Merge Sort</button>
+                    <p>Steps: sort left half of array, sort right half of array, merge two halves.</p>
+                </section>
+            </li>
+        </ul>
+    </section>
+    <section class="container-puts">
+        <input class="container-input" data-input type="number" placeholder="Input">
+        <div class="container-output flex" data-output></div>
+    </section>
+    <!-- <script type="module" src="scripts/merge-sort.js"></script>
+    <script type="module" src="scripts/fibonacci-recursive.js"></script>
+    <script type="module" src="scripts/fibonacci.js"></script>
+    <script type="module" src="scripts/catch-error.js"></script> -->
+</body>
+</html>
