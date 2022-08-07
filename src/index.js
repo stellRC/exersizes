@@ -3,6 +3,7 @@ import mergeSort from './mergeSort.js'
 import fibRec from './fibonacciRecursive.js'
 import fib from './fibonacci.js'
 import catchError from './catchError.js'
+import './styles/style.css';
 
 const input = document.querySelector('[data-input]')
 const output = document.querySelector('[data-output]')
